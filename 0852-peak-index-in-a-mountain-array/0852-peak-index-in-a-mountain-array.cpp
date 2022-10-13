@@ -10,7 +10,7 @@ public:
                 start = mid+1;
             }
             else{
-                end = mid;
+                end = mid; //bcoz mid pichle line me na aa jaye!
             }
             mid = start+(end-start)/2;
         }
